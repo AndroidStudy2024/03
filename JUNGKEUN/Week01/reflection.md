@@ -35,7 +35,7 @@
 
 - <img src="../res/hyewoon.png" alt="hyewoon" width="24"/> 혜운: 액티비티 생명주기는?  
 
-- <img src="../res/jungyun.png" alt="jungyun" width="24"/> 정현: 큐와 스택의 차이  
+- <img src="../res/junghyun.png" alt="junghyun" width="24"/> 정현: 큐와 스택의 차이  
 
 - <img src="../res/hyewoon.png" alt="hyewoon" width="24"/> 혜운: 코틀린에서 ?, !! 의미는? 코루틴과 스레드의 차이?  
 
