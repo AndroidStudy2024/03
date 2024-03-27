@@ -9,3 +9,9 @@ Android, Kotlin 자유질문
 [1회차 2024.03.26]  
 Android : jetpack Compose  
 Kotlin : Class  
+
+[2회차 2024.04.02]  
+Android : StateFlow/Kotlin Flows  
+Kotlin : Coroutine (Coroutine Scope, Continuation, Job)  
+   
+준비사항 : CS 스터디 희망 주제 및 참고자료 정리해오기
