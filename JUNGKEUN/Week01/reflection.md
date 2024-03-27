@@ -35,7 +35,7 @@
 
 - <img src="../res/hyewoon.png" alt="hyewoon" width="24"/> 혜운: 액티비티 생명주기는?  
 
-- <img src="../res/gunhee.png" alt="gunhee" width="24"/> 건희: 큐와 스택의 차이  
+- <img src="../res/jungyun.png" alt="jungyun" width="24"/> 정현: 큐와 스택의 차이  
 
 - <img src="../res/hyewoon.png" alt="hyewoon" width="24"/> 혜운: 코틀린에서 ?, !! 의미는? 코루틴과 스레드의 차이?  
 
@@ -73,6 +73,7 @@ interface UserService {
 
     @GET("$REMOTE_DATABASE_USERS/{id}.json")
     suspend fun getRemoteUserById(@Path("id") id: String): UserDTO
+}
 ```
 
 근데 코드 스니펫만 봐서는 둘의 차이를 짐작할 수 없음!!  
