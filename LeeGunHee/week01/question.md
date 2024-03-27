@@ -24,7 +24,7 @@
   
 **4) StateFlow와 SharedFlow의 차이점 (중)**
 - 둘다 Hot Stream으로서 다양한 소비자가 존재 가능함
-- SharedFlow는 상태값 프로퍼티를 가지고 있음 즉 마지막에 수집된 값을 보관하고 있어서
+- StateFlow는 상태값 프로퍼티를 가지고 있음 즉 마지막에 수집된 값을 보관하고 있어서
   데이터의 상태를 확인해야하는 StateHolder로 사용하기 좋음 (RecyclerView Adapter의 List, 고유 상태값)
 - SharedFlow는 상태값 프로퍼티가 없음
   그러므로 휘발성으로 날아가는 이벤트 호출에 좋음 네비게이션 이벤트나 toastMessage에 사용하기 좋음
