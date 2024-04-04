@@ -26,7 +26,7 @@ CoroutineContext는 코루틴의 실제 실행 환경을 정의하는 개념입�
 - CoroutineName : 코루틴에 이름을 부여하여 디버깅/로깅에 사용
 - Job : 코루틴의 생명주기를 관리하고 취소할 수 있는 핸들
 
-
+<br/>
 
 **viewModelScope 와 lifecycleScope**
 
@@ -36,13 +36,13 @@ viewModel 이 소멸될 때 (onCleared() 호출) viewModelScope 에 있는 모�
 lifecycleScope는 안드로이드 Jetpack 라이브러리에서 제공되며, LifecycleOwner(예: Activity, Fragment)의 수명 주기에 맞게 코루틴을 관리합니다. 이 범위는 액티비티나 프래그먼트의 수명 주기와 함께 코루틴을 실행하거나 중단시킬 때 사용됩니다. 
 LifecycleOwner 가 소멸될 때 (onDestroy() 호출) lifecycleScope에 있는 모든 코루틴이 취소됩니다.
 
-
+<br/>
 
 **화면이 회전될 때 viewModelScope 의 코루틴이 종료되지 않는 이유**
 
 → 화면 회전 시 fragment는 ondestroy → oncreate 과정을 거치는데 viewModel 에서는 화면 회전 이벤트를 조건문을 걸어 onCleared() 메소드를 호출하지 않는다.
 
-
+<br/>
 
 **fragment backstack 시 viewModelScope 가 함께 cleared 되는 이유**
 
@@ -52,7 +52,7 @@ LifecycleOwner 가 소멸될 때 (onDestroy() 호출) lifecycleScope에 있는 �
 
 하지만 일반적으로 Fragment 가 파괴될 때 Fragment와 연결된 ViewModel도 파괴되어 ViewModel에 의해 보유된 리소스가 정리됩니다. (메모리 누수 방지)
 
-
+<br/>
 
 **ViewModel 의 onCleared() 호출 시점** 
 
@@ -60,7 +60,7 @@ LifecycleOwner 가 소멸될 때 (onDestroy() 호출) lifecycleScope에 있는 �
 - Fragment 분리
 - 백스택에서 삭제
 
-
+<br/>
 
 **Continuation**
 
@@ -70,7 +70,7 @@ Continuation은 코루틴이 일시 중단된 후에 다시 재개될 때 사용
 
 코드 상에서 suspend fun 은 컴파일 할 때 continuation 객체를 파라미터로 가지고 있게 되며, suspend fun 은 이 객체에 중단 시점의 상태 정보를 저장합니다. 
 
-
+<br/>
 
 **코루틴의 스케줄링 방식**
 
@@ -78,8 +78,8 @@ Continuation은 코루틴이 일시 중단된 후에 다시 재개될 때 사용
 
 협동형 스케줄링 → 코루틴이 자체적으로 실행을 양보하고 제어권을 다른 코루틴에게 넘긴다. 코틀린이 채택한 코루틴 스케줄링 방식이다.
 
-
-
+<br/>
+<br/>
 
 
 ### Flow
@@ -90,13 +90,13 @@ Continuation은 코루틴이 일시 중단된 후에 다시 재개될 때 사용
     
     코루틴에서 Flow은 단일 값만 반환하는 *정지 함수*와 달리 여러 값을 순차적으로 내보낼 수 있는 유형입니다. 흐름(스트림)을 사용하여 데이터베이스에서 실시간 업데이트를 수신할 수 있습니다.
 
-
+<br/>
     
 2. **Flow와 Sequence의 차이점은 무엇인가요.**
     
     둘 다 연속된 데이터의 처리할 수 있지만, flow 는 비동기적으로 데이터 스트림을 처리하는데 사용되며 비동기 작업을 지원합니다. sequence는 동기적으로 연속적인 데이터를 처리하는 데 사용되며 비동기 작업을 지원하지 않습니다.
     
-
+<br/>
     
 3. **Flow의 Cold vs. Hot 특성에 대해 설명해주세요.**
     
