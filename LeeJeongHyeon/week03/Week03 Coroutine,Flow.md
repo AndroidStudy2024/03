@@ -1,7 +1,6 @@
 # Week03 : Coroutine , Flow
 
-상태: 진행 중
-강의: 스터디 모임 (https://www.notion.so/dea5c7991b794852987f99e423794e63?pvs=21)
+
 
 ### Coroutine
 
