@@ -12,6 +12,8 @@
 
 
 
+
+
 **CoroutineScope 와 CoroutineConext 에 대해 설명해주세요**
 
 CouroutineScope 는 코루틴의 범위와 생명주기를 관리합니다.
