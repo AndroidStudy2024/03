@@ -17,5 +17,13 @@ Kotlin : Coroutine (Coroutine Scope, Continuation, Job)
 [3회차 2024.04.09]  
 Android : Architecture(DI, ViewModel, Lifecycle)  
 Kotlin : OOP(class, interface, kotlin vs Java)  
-   
+
+[4회차 2024.04.16]  
+Android : RecyclerView, Paging  
+Kotlin : Generic  
+
+[5회차 2024.04.23]  
+Android : 4대 컴포넌트(Activity, Service, BroadcastReceiver, ContentProvider) + Intent  
+Kotlin : delegate pattern, Factory Pattern  
+
 준비사항 : CS 스터디 희망 주제 및 참고자료 정리해오기
