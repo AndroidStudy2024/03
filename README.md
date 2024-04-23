@@ -26,4 +26,9 @@ Kotlin : Generic
 Android : 4대 컴포넌트(Activity, Service, BroadcastReceiver, ContentProvider) + Intent  
 Kotlin : delegate pattern, Factory Pattern  
 
-준비사항 : CS 스터디 희망 주제 및 참고자료 정리해오기
+[6회차 2024.04.30]  
+Android : 네트워크 통신 (OkHttp, Retrofit, Ktor) & 직렬화 (Gson, Moshi, Kotlin Serialization)  
+Kotlin : Collection & Sequence (https://kotlinlang.org/docs/collections-overview.html)  
+
+해당 스터디 주제의 경우 skydoves님의 안드로이드 커리큘럼을 기반으로 선정합니다.  
+https://github.com/skydoves/android-developer-roadmap
