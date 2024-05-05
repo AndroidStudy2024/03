@@ -30,5 +30,10 @@ Kotlin : delegate pattern, Factory Pattern
 Android : 네트워크 통신 (OkHttp, Retrofit, Ktor) & 직렬화 (Gson, Moshi, Kotlin Serialization)  
 Kotlin : Collection & Sequence (https://kotlinlang.org/docs/collections-overview.html)  
 
+[7회차 2024.05.07]  
+Android : Fragment간 데이터 전달(FragmentResult API) & Jetpack Navigation  
+Kotlin : Error Handling & Exception  
+7회차까지 회고  
+
 해당 스터디 주제의 경우 skydoves님의 안드로이드 커리큘럼을 기반으로 선정합니다.  
 https://github.com/skydoves/android-developer-roadmap
