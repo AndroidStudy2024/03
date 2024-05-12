@@ -35,5 +35,9 @@ Android : Fragment간 데이터 전달(FragmentResult API) & Jetpack Navigation
 Kotlin : Error Handling & Exception  
 7회차까지 회고  
 
+[8회차 2024.05.14]  
+지금까지의 스터디 회고 및 스터디 방향성 결정  
+깃헙이 아닌 노션으로 변경될 수 있음  
+
 해당 스터디 주제의 경우 skydoves님의 안드로이드 커리큘럼을 기반으로 선정합니다.  
 https://github.com/skydoves/android-developer-roadmap
